@@ -1,0 +1,52 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+.logo {
+  color: red;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  margin: 10px 2px;
+  background-color: red;
+  outline: none;
+  border-style: none;
+  width: 100px;
+  height: 40px;
+}
+
+.mainSection {
+  background-color: gray;
+  opacity: 0.9;
+  width: 80%;
+  height: 100vh;
+  text-align: center;
+}
+
+.bodySection {
+  background-color: red;
+  height: 100%;
+}

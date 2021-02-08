@@ -1,0 +1,22 @@
+{
+  "name": "tsfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyhyom/TS-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyhyom/TS-Project/issues"
+  },
+  "homepage": "https://github.com/luckyhyom/TS-Project#readme",
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  }
+}
