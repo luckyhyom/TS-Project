@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./common/style/main.css">
+    <script src="./src/main.js" defer></script>
 </head>
 <body>
     <section class="mainSection">
         <nav>
             <div class="logo">MOTION</div>
             <ul class="menus">
-                <li><button class="menu">IMAGE</button></li>
-                <li><button class="menu">VIDEO</button></li>
-                <li><button class="menu">NOTE</button></li>
-                <li><button class="menu">TASK</button></li>
+                <li><button class="menu" value="IMAGE">IMAGE</button></li>
+                <li><button class="menu" value="VIDEO">VIDEO</button></li>
+                <li><button class="menu" value="NOTE">NOTE</button></li>
+                <li><button class="menu" value="TASK">TASK</button></li>
             </ul>
         </nav>
         <section class="bodySection">
@@ -104,11 +105,12 @@
     </section>
 
     <section class="inputWindow">
-        <form action="" method="post" class="inputForm">
+        <button class="close-input">X</button>
+        <!-- <form action="" method="post" class="inputForm"> -->
             <div class="title-input"><span for="">Title</span> <input type="text"></div>
             <div class="URL-input"><span for="">URL</span> <input type="text"></div>
-            <button class="addBtn">ADD</button> <button class="close-input">X</button>
-        </form>
+            <div class="addBtn">ADD</div>
+        <!-- </form> -->
     </section>
 
 </body>
